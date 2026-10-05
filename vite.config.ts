@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   base:
     process.env.GITHUB_PAGES === "true"
-      ? "/chop-chop-restaurant-website/"
+      ? "/chop-chop-restaurant/"
       : "/",
   plugins: [tailwindcss()],
 });
